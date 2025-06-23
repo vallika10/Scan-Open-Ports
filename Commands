@@ -1,0 +1,4 @@
+Commands to Scan ports
+1. nmap -sS <ip address> -sS to performs TCP SYN Scan
+2. nmap -p- <ip address> -p- scans all ports of the target
+3. nmap -p 22,80,443 <target> scans only particular ports
